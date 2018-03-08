@@ -37,5 +37,5 @@ if (useEmulator) {
     });
     server.post('/api/messages', connector.listen());    
 } else {
-    module.exports = connector.listen();
+    module.exports = connector.listen(); //conector
 }
